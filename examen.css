@@ -1,0 +1,69 @@
+body{
+    background: linear-gradient(rgb(98, 60, 116) 0%, rgb(101, 101, 158) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navegador{
+    height: 20%;
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0.336);
+    position: fixed;
+}
+button{
+    background-color: blueviolet;
+    color: rgb(31, 13, 48);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 60px;
+    width: 90px;
+    margin-left: 50%;
+    margin-top: 3%;
+}
+
+button:hover{
+    background-color: rgb(26, 9, 41);
+    color: rgb(165, 135, 194);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: bisque;
+    margin-top: 20%;
+    font-size: larger;
+}
+
+.cuadrado{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(21, 255, 0);
+    position: static;
+}
+.rombo{
+    height: 70px;
+    width: 70px;
+    background-color: blue;
+    border-radius: 60px;
+    position: absolute;
+}
+.circulo{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(255, 0, 128);
+    transform: rotate(45deg);
+    position: fixed;
+    margin-left: 50%;
+}
+aside{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: bisque;
+    margin-top: 10%;
+}
+footer{
+    background-color: rgba(137, 43, 226, 0.377);
+    font-size: 30px;
+    color: bisque;
+    height: 20%;
+    width: 100%;
+}
